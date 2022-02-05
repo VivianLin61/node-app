@@ -9,4 +9,4 @@ app.get(['/', '/hw0.html'], (req, res) => {
   res.sendFile(path.join(__dirname, '/public','hw0.html'))
 } )
 
-app.listen(5000, () => console.log('server started on port 5000'))
+app.listen(80, () => console.log('server started on port 5000'))
